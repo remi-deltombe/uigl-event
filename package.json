@@ -1,0 +1,24 @@
+{
+  "name": "uigl-events",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack --config=webpack.config.js",
+    "test": "jasmine-ts --config=jasmine.json"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/jasmine": "^3.5.14",
+    "jasmine": "^3.6.1",
+    "jasmine-spec-reporter": "^6.0.0",
+    "jasmine-ts": "^0.3.0",
+    "ts-loader": "^8.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
