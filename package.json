@@ -2,7 +2,8 @@
   "name": "uigl-event",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx webpack --config=webpack.config.js",
     "test": "jasmine-ts --config=jasmine.json"
@@ -11,6 +12,7 @@
   "license": "GPL-3.0-or-later",
   "devDependencies": {
     "@types/jasmine": "^3.5.14",
+    "dts-bundle": "^0.7.3",
     "jasmine": "^3.6.1",
     "jasmine-spec-reporter": "^6.0.0",
     "jasmine-ts": "^0.3.0",
